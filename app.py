@@ -2,6 +2,7 @@ import streamlit as st
 
 def main():
     st.title("Simple Calculator App")
+    st.title("Developed By Mujadid")
     
     # Getting user input
     num1 = st.number_input("Enter first number:", value=0.0, format="%.2f")
